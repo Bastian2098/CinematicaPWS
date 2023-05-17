@@ -49,3 +49,22 @@ if (isset($_GET["pid"])) {
 
 ?>
 </body>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDP5ZrEtLHu2aiZSjGyAYoJlIyII1cHih0",
+    authDomain: "cinematica-app.firebaseapp.com",
+    projectId: "cinematica-app",
+    storageBucket: "cinematica-app.appspot.com",
+    messagingSenderId: "796227106347",
+    appId: "1:796227106347:web:eb3f8e48cac01d4f30dc6e"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
